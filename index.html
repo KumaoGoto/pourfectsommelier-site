@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ぴったりソムリエ — サポート</title>
+<meta name="description" content="iOS アプリ「ぴったりソムリエ」（Pourfect Sommelier）のサポート。遊び方・よくある質問・お問い合わせ。">
+<link rel="icon" href="icon.png">
+<style>
+  /* 色はゲームと同じ（試作の --night・--cream・--brass・--wine）。外部の読み込みは無い */
+  :root{--paper:#1a0a0e;--ink:#f4ead9;--ink2:#cdbb9f;--line:rgba(222,190,128,.30);--brass:#d9b66c;--wine:#8b1a30;--card:rgba(40,14,20,.86)}
+  *{box-sizing:border-box}
+  html{background:var(--paper)}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
+       line-height:1.85;-webkit-text-size-adjust:100%;font-size:15px}
+  .wrap{max-width:40rem;margin:0 auto;padding-block:2.25rem 4rem;
+        padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+  header{display:flex;gap:16px;align-items:center;margin-bottom:1.25rem}
+  header img{width:72px;height:72px;border-radius:16px;flex:none}
+  h1{font-size:1.5rem;line-height:1.3;margin:0}
+  .sub{color:var(--ink2);font-size:.9rem;margin:.1rem 0 0}
+  h2{font-size:1.05rem;margin:2rem 0 .5rem;padding-top:.9rem;border-top:1px solid var(--line);color:var(--brass);text-wrap:balance}
+  h3{font-size:.98rem;margin:1.2rem 0 .3rem}
+  p,ul,ol{margin:.5rem 0}
+  ul,ol{padding-left:1.3em}
+  li{margin:.15rem 0}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0}
+  .btn{display:inline-block;padding:.6rem 1rem;border:1px solid var(--brass);border-radius:3px;color:var(--ink);text-decoration:none;background:var(--card)}
+  .btn.main{background:var(--wine)}
+  a{color:inherit;text-underline-offset:3px;word-break:break-all}
+  footer{margin-top:3rem;text-align:center;color:var(--ink2);font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>ぴったりソムリエ</h1>
+    <p class="sub">Pourfect Sommelier — the art of the equal pour</p>
+  </div>
+</header>
+
+<p>ボトルに残ったワインを、2〜7 名様のグラスに、人数分ぴったり注ぎ分けるゲームです。
+数字（ml）は出ません。ボトルの中の量とグラスの形を目で見て注ぎます。</p>
+
+<div class="btns">
+  <!-- App Store に並んだら「App Store で見る」（https://apps.apple.com/jp/app/id6834156070?pt=129314143&ct=site&mt=8）を足す -->
+  <a class="btn" href="https://pourfect-sommelier.kumao.app/">ブラウザ版で遊ぶ</a>
+  <a class="btn" href="privacy.html">プライバシーポリシー</a>
+</div>
+
+<h2>遊び方</h2>
+<ol>
+  <li><strong>下へなぞる</strong>とボトルが傾いて注ぎます。</li>
+  <li><strong>指を離す</strong>と次のグラスへ。</li>
+  <li>最後の 1 杯には、ボトルの<strong>残りがぜんぶ</strong>入ります。</li>
+  <li>ひとり分から許容（はじめは ±20%）より外れたお客様がいると、ライフが 1 つ減ります。全員ぴったり（±2%）なら 1 つ戻ります。ライフは 3 つです。</li>
+</ol>
+<p>注ぐ前に、ボトルを指で回して中の量を見られます。12 ステージでひと巡りし、そのあとは許容を狭めてくり返します。
+記録は、ライフがなくなるまでに何組のお客様にご満足いただけたか、です。</p>
+
+<h2>よくある質問</h2>
+
+<h3>音を消したい</h3>
+<p>画面の右上の ♪ のボタンで、効果音と BGM と振動をまとめて切りかえられます。</p>
+
+<h3>広告について</h3>
+<p>画面の上端にバナー広告が出ます。また、5 回遊び終えるごとに 1 回、次の回を始めるときに全画面の広告が出ます。遊んでいる途中で全画面の広告が出ることはありません。</p>
+
+<h3>広告を消したい</h3>
+<p>タイトルのボタンの下の「広告を消す」から、¥300 の買い切りで広告を消せます。遊べる内容は変わりません。
+前に買ったことがあれば、同じ画面の「購入を復元」で戻ります（アプリを入れ直したときは、起動すると自動で戻ります）。</p>
+
+<h3>「トラッキング」の確認が出た</h3>
+<p>初めて起動したときに 1 回だけ出る、iOS の確認です。どちらを選んでも、遊べる内容は変わりません。あとから「設定 → プライバシーとセキュリティ → トラッキング」で変えられます。</p>
+
+<h3>ランキングに載せたい・やめたい</h3>
+<p>ライフがなくなって遊び終えた画面の「ランキングに載せる」から、名前を決めて載せられます（1 組でもご満足いただけた回）。
+やめるときは、ランキングの画面で自分の名前（名前を変える）を押し、「ランキングをやめて記録を消す」を押してください。名前と記録がサーバーから消えます。
+ほかの人の名前を押すと、「通報する」「この人を表示しない」を選べます。</p>
+
+<h3>ブラウザ版とは何が違う？</h3>
+<p>遊び方は同じで、ランキングも同じ一覧です。iOS アプリには振動があり、通信なしでも遊べます（ランキングだけは通信します）。</p>
+
+<h3>記録を引き継ぎたい</h3>
+<p>記録は端末の中にだけあり、別の端末やブラウザ版へは引き継げません。</p>
+
+<h2>お問い合わせ</h2>
+<p>不具合やご意見は、次のアドレスまでお知らせください。端末の機種と iOS のバージョンを添えていただけると助かります。</p>
+<p><a href="mailto:support.kumaogoto@gmail.com">support.kumaogoto@gmail.com</a></p>
+
+<footer>© 2026 Mitsuaki Goto</footer>
+</div>
+</body>
+</html>
